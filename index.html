@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Семистровая Работа</title>
+</head>
+<body>
+
+  <!-- Хедер -->
+  <header>
+    <div class="container header-container">
+      <a href="#hero" class="logo">
+        <div class="logo-icon">VI</div>
+        <span>Верстальщик</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#hero">Главная</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container hero-content">
+      <h1 class="hero-title">Сайт верстальщика</h1>
+      <h2 class="hero-subtitle">Ярового Ивана</h2>
+      <a href="#portfolio" class="btn">Посмотреть мои работы</a>
+    </div>
+  </section>
+
+<section id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Мои работы</h2>
+      <div class="portfolio-grid">
+        <a href="https://shmhe.github.io/site-bee/" target="_blank" class="project-card">
+          <div class="project-img" style="background-image: url('img/honey-sale.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Сайт-Пчелка</h3>
+            <p class="project-desc">Одна из первых попытка верстка сайта.</p>
+          </div>
+        </a>
+  
+        <a href="https://shmhe.github.io/the-loop-/" target="_blank" class="project-card">
+          <div class="project-img" style="background-image: url('img/winter-sale.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">The Loop</h3>
+            <p class="project-desc">Верстка сайта по макету из фигмы.</p>
+          </div>
+        </a>
+  
+        <a href="https://shmhe.github.io/site-vizitka/" target="_blank" class="project-card">
+          <div class="project-img" style="background-image: url('img/smart-monitor.png'); background-size: cover; background-position: center;">
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Сайт визитка</h3>
+            <p class="project-desc">Сайт о своем продукте.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Связаться со мной</h2>
+      <div class="form-container">
+        <form>
+          <div class="form-group">
+            <label for="name">Имя *</label>
+            <input type="text" id="name" class="form-control" placeholder="Ваше имя" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" class="form-control" placeholder="Ваш email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Сообщение *</label>
+            <textarea id="message" class="form-control" placeholder="Ваше сообщение..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-contact">
+        <h3>Контакты</h3>
+        <p>+7 900 000 00 00</p>
+      </div>
+      <div class="footer-social">
+        <h3>Соцсети</h3>
+        <div class="social-icons">
+          <a href="https://vk.com" target="_blank" aria-label="ВКонтакте">VK</a>
+          <a href="https://t.me" target="_blank" aria-label="Telegram">TG</a>
+          <a href="https://web.whatsapp.com" target="_blank" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
